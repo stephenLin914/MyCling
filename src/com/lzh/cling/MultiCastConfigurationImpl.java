@@ -1,7 +1,6 @@
-package main.java.com.lzh.cling;
+package com.lzh.cling;
 
 import java.net.InetAddress;
-import java.net.InetSocketAddress;
 import java.net.UnknownHostException;
 
 public class MultiCastConfigurationImpl implements MulticastConfiguration {

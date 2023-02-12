@@ -1,4 +1,4 @@
-package main.java.com.lzh.cling;
+package com.lzh.cling;
 
 public class Constants {
     public static final String IPV4_UPDP_MULTICAST_GROUP = "239.255.255.250";

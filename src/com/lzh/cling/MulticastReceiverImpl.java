@@ -1,20 +1,14 @@
 package com.lzh.cling;
 
-import main.java.com.lzh.cling.MultiCastConfigurationImpl;
-import main.java.com.lzh.cling.MulticastConfiguration;
-import main.java.com.lzh.cling.MulticastReceiver;
-
 import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.InetSocketAddress;
 import java.net.MulticastSocket;
 import java.net.NetworkInterface;
-import java.util.Collections;
-import java.util.Enumeration;
 import java.util.logging.Logger;
 
 public class MulticastReceiverImpl implements MulticastReceiver<MultiCastConfigurationImpl> {
-    private static Logger log = Logger.getLogger(com.lzh.cling.MulticastReceiverImpl.class.getName());
+    private static Logger log = Logger.getLogger(MulticastReceiverImpl.class.getName());
 
     private final MultiCastConfigurationImpl configuration;
     private MulticastSocket socket;

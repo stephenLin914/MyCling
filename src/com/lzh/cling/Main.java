@@ -1,10 +1,4 @@
-package main.java;
-
-import com.lzh.cling.MulticastReceiverImpl;
-import main.java.com.lzh.cling.ClingExecutor;
-import main.java.com.lzh.cling.MultiCastConfigurationImpl;
-import main.java.com.lzh.cling.MulticastConfiguration;
-import main.java.com.lzh.cling.MulticastReceiver;
+package com.lzh.cling;
 
 import java.net.InetAddress;
 import java.net.NetworkInterface;

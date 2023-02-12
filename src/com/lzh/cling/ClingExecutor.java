@@ -1,6 +1,4 @@
-package main.java.com.lzh.cling;
-
-import main.java.Main;
+package com.lzh.cling;
 
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;

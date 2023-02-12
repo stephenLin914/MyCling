@@ -1,6 +1,5 @@
-package main.java.com.lzh.cling;
+package com.lzh.cling;
 
-import java.net.InetAddress;
 import java.net.NetworkInterface;
 
 public interface MulticastReceiver<C extends MulticastConfiguration> extends Runnable {

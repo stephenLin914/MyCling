@@ -1,4 +1,4 @@
-package main.java.com.lzh.cling;
+package com.lzh.cling;
 
 import java.net.InetAddress;
 
